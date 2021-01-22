@@ -1,0 +1,27 @@
+{
+  "name": "facialrecognitionapp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisKCarr/FacialRecognitionApp-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisKCarr/FacialRecognitionApp-API/issues"
+  },
+  "homepage": "https://github.com/ChrisKCarr/FacialRecognitionApp-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
